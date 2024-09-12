@@ -1,10 +1,10 @@
 [project]
-name = "QuickSQL"
+name = "SQLSimplify"
 authors = [
   { name="Ankush Kumar", email="ankush1611996@gmail.com" },
 ]
 description = "A Python library for easy SQl operations"
-keywords = ["pysql", "sqlite", "python sql", "quicksql","sql", 'mysql']
+keywords = ["pysql", "sqlite", "python sql", "quicksql","sql", 'mysql','SQLSimplify']
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [

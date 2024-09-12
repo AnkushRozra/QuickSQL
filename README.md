@@ -1,6 +1,6 @@
-# QuickSQL Python Library
+# SQLSimplify Python Library
 
-The QuickSQL Python library provides a comprehensive and flexible interface for interacting with MySQL databases. It simplifies common database operations such as querying, creating, updating, deleting, backing up, and restoring databases and tables.
+The SQLSimplify Python library provides a comprehensive and flexible interface for interacting with MySQL databases. It simplifies common database operations such as querying, creating, updating, deleting, backing up, and restoring databases and tables.
 
 ## Features
 
@@ -15,21 +15,21 @@ The QuickSQL Python library provides a comprehensive and flexible interface for 
 You can install the library using pip:
 
 ```bash
-pip install quicksql
+pip install SQLSimplify
 ```
 
 ## Usage
 Importing the Library
 ```python
-import quicksql
+import SQLSimplify
 ```
 
 ## Connecting to MySQL
-To use the library, create an instance of the quicksql.
+To use the library, create an instance of the SQLSimplify.
 Connect class by providing the host, username, password, and optionally the database name.
 
 ```Python
-db = quicksql.Connect(host='localhost', username='root', password='yourpassword', database='yourdatabase') 
+db = SQLSimplify.Connect(host='localhost', username='root', password='yourpassword', database='yourdatabase') 
 #database not required for initial connection
 ```
 

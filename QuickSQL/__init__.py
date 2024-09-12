@@ -1,1 +1,0 @@
-from .quicksql import Connect
